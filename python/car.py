@@ -19,6 +19,8 @@ wheelList = [
 
 class Car:
 
+    moving = False
+
     def __init__(self, actualCarType):
         self.actualCarType = actualCarType
 
